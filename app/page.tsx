@@ -1,65 +1,124 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import InfoCard from "@/components/InfoCard";
+import {
+	Award,
+	Users,
+	Monitor,
+	BookOpen,
+	Target,
+	Lightbulb,
+} from "lucide-react";
 
 export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
-  );
+	return (
+		<>
+			{/* Hero Section */}
+			<Hero
+				title="Transformá tu futuro con formación profesional"
+				subtitle="Cursos, capacitaciones y contenido académico de calidad en Doria Academy."
+			/>
+
+			{/* Features Section */}
+			<section className="section-padding bg-white">
+				<div className="container-custom">
+					<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+						<InfoCard
+							icon={Award}
+							title="Formación Certificada"
+							description="Obtené certificados reconocidos que avalan tu conocimiento y habilidades profesionales."
+						/>
+						<InfoCard
+							icon={Users}
+							title="Profesores Especialistas"
+							description="Aprendé de expertos con amplia experiencia en sus áreas de conocimiento."
+							delay="animation-delay-200"
+						/>
+						<InfoCard
+							icon={Monitor}
+							title="Modalidad Online"
+							description="Estudiá desde donde estés, a tu ritmo y con acceso 24/7 a todo el contenido."
+							delay="animation-delay-400"
+						/>
+					</div>
+				</div>
+			</section>
+
+			{/* Why Choose Us Section */}
+			<section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
+				<div className="container-custom">
+					<div className="text-center max-w-3xl mx-auto mb-16">
+						<h2 className="heading-2 mb-4">¿Por qué elegir Doria Academy?</h2>
+						<p className="text-lg text-gray-600">
+							Nos comprometemos con tu crecimiento profesional a través de una
+							educación de excelencia
+						</p>
+					</div>
+
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+						<div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+							<div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+								<BookOpen className="h-6 w-6 text-blue-600" />
+							</div>
+							<h3 className="text-xl font-bold text-gray-900 mb-3">
+								Contenido Actualizado
+							</h3>
+							<p className="text-gray-600">
+								Material educativo constantemente actualizado con las últimas
+								tendencias y mejores prácticas del mercado.
+							</p>
+						</div>
+
+						<div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+							<div className="bg-purple-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+								<Target className="h-6 w-6 text-purple-600" />
+							</div>
+							<h3 className="text-xl font-bold text-gray-900 mb-3">
+								Enfoque Práctico
+							</h3>
+							<p className="text-gray-600">
+								Aprendizaje basado en proyectos reales y casos de estudio que te
+								preparan para el mundo laboral.
+							</p>
+						</div>
+
+						<div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+							<div className="bg-green-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+								<Lightbulb className="h-6 w-6 text-green-600" />
+							</div>
+							<h3 className="text-xl font-bold text-gray-900 mb-3">
+								Innovación Continua
+							</h3>
+							<p className="text-gray-600">
+								Metodologías de enseñanza innovadoras que hacen del aprendizaje
+								una experiencia efectiva y motivadora.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			{/* CTA Section */}
+			<section className="section-padding bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+				<div className="container-custom">
+					<div className="max-w-3xl mx-auto text-center space-y-6">
+						<h2 className="heading-2 text-white">
+							¿Listo para comenzar tu transformación?
+						</h2>
+						<p className="text-xl text-blue-100">
+							Contactanos hoy y descubrí cómo podemos ayudarte a alcanzar tus
+							objetivos profesionales.
+						</p>
+						<a
+							href="https://wa.me/XXXXXXXXXX"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="inline-block bg-white text-blue-600 font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+						>
+							👉 Contactar por WhatsApp
+						</a>
+					</div>
+				</div>
+			</section>
+		</>
+	);
 }
