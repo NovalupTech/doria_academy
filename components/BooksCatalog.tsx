@@ -70,7 +70,7 @@ function BookCard({ book }: BookCardProps) {
 							<p className="text-xs text-gray-500">Próximamente</p>
 						</div>
 					</div>
-					<Badge variant="secondary" size="sm">
+					<Badge variant="info" size="sm">
 						Próximamente
 					</Badge>
 				</div>
