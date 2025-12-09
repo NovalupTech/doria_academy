@@ -15,7 +15,7 @@ export default function CursosPage() {
 		<>
 			<Hero
 				title="Cursos y Capacitaciones"
-				subtitle="Descubrí nuestra oferta educativa diseñada para impulsar tu carrera profesional."
+				subtitle="Descubre nuestra oferta educativa diseñada para impulsar tu carrera profesional."
 				showCta={false}
 			/>
 
@@ -62,7 +62,7 @@ export default function CursosPage() {
 			<section className="section-padding bg-white">
 				<div className="container-custom">
 					<div className="max-w-3xl mx-auto text-center space-y-6 bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-2xl">
-						<h2 className="heading-3">¿No encontrás el curso que buscás?</h2>
+						<h2 className="heading-3">¿No encuentras el curso que buscas?</h2>
 						<p className="text-lg text-gray-600">
 							Contactanos y contanos qué te gustaría aprender. Estamos
 							constantemente expandiendo nuestra oferta educativa.
