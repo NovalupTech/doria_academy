@@ -130,8 +130,8 @@ export default function CampusPage() {
 											Acceso Total a tus Cursos
 										</h3>
 										<p className="text-gray-600 leading-relaxed">
-											Ingresá a todos tus cursos activos desde un solo lugar.
-											Seguí tu progreso, retomá donde lo dejaste y organizá tu
+											Ingresa a todos tus cursos activos desde un solo lugar.
+											Sigue tu progreso, retoma donde lo dejaste y organiza tu
 											aprendizaje.
 										</p>
 									</div>
@@ -200,11 +200,11 @@ export default function CampusPage() {
 				<div className="container-custom">
 					<div className="max-w-3xl mx-auto text-center space-y-6">
 						<h2 className="heading-2 text-white">
-							¿Querés ser de los primeros en acceder?
+							¿Quieres ser de los primeros en acceder?
 						</h2>
 						<p className="text-xl text-blue-100">
 							Contactanos para recibir notificaciones cuando el campus virtual
-							esté disponible y accedé a beneficios exclusivos de lanzamiento.
+							esté disponible y accede a beneficios exclusivos de lanzamiento.
 						</p>
 						<a
 							href="https://wa.me/573145532943"

@@ -7,7 +7,7 @@ import { courses } from "@/data/courses";
 export const metadata: Metadata = {
 	title: "Cursos y Capacitaciones - Doria Academy",
 	description:
-		"Explorá nuestra oferta de cursos y capacitaciones profesionales. Formación certificada en diversas áreas.",
+		"Explora nuestra oferta de cursos y capacitaciones profesionales. Formación certificada en diversas áreas.",
 };
 
 export default function CursosPage() {
@@ -61,10 +61,10 @@ export default function CursosPage() {
 			{/* CTA Section */}
 			<section className="section-padding bg-white">
 				<div className="container-custom">
-					<div className="max-w-3xl mx-auto text-center space-y-6 bg-gradient-to-br from-blue-50 to-purple-50 p-12 rounded-2xl">
+					<div className="max-w-3xl mx-auto text-center space-y-4 bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl">
 						<h2 className="heading-3">¿No encuentras el curso que buscas?</h2>
 						<p className="text-lg text-gray-600">
-							Contactanos y contanos qué te gustaría aprender. Estamos
+							Contáctanos y cuéntanos qué te gustaría aprender. Estamos
 							constantemente expandiendo nuestra oferta educativa.
 						</p>
 						<a

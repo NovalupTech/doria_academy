@@ -25,7 +25,7 @@ export default function Hero({
 			</div>
 
 			<div className="container-custom section-padding relative z-10">
-				<div className="max-w-4xl mx-auto text-center space-y-8">
+				<div className="max-w-4xl mx-auto text-center space-y-5">
 					{/* Badge */}
 					<div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-md">
 						<Sparkles className="h-4 w-4 text-purple-600" />

@@ -25,18 +25,18 @@ export default function Home() {
 						<InfoCard
 							icon={Award}
 							title="Formación Certificada"
-							description="Obtené certificados reconocidos que avalan tu conocimiento y habilidades profesionales."
+							description="Obtén certificados reconocidos que avalan tu conocimiento y habilidades profesionales."
 						/>
 						<InfoCard
 							icon={Users}
 							title="Profesores Especialistas"
-							description="Aprendé de expertos con amplia experiencia en sus áreas de conocimiento."
+							description="Aprende de expertos con amplia experiencia en sus áreas de conocimiento."
 							delay="animation-delay-200"
 						/>
 						<InfoCard
 							icon={Monitor}
 							title="Modalidad Online"
-							description="Estudiá desde donde estés, a tu ritmo y con acceso 24/7 a todo el contenido."
+							description="Estudia desde donde estés, a tu ritmo y con acceso 24/7 a todo el contenido."
 							delay="animation-delay-400"
 						/>
 					</div>
@@ -46,8 +46,8 @@ export default function Home() {
 			{/* Why Choose Us Section */}
 			<section className="section-padding bg-gradient-to-br from-gray-50 to-blue-50">
 				<div className="container-custom">
-					<div className="text-center max-w-3xl mx-auto mb-16">
-						<h2 className="heading-2 mb-4">¿Por qué elegir Doria Academy?</h2>
+					<div className="text-center max-w-3xl mx-auto mb-8">
+						<h2 className="heading-2 mb-3">¿Por qué elegir Doria Academy?</h2>
 						<p className="text-lg text-gray-600">
 							Nos comprometemos con tu crecimiento profesional a través de una
 							formación de excelencia
@@ -55,11 +55,11 @@ export default function Home() {
 					</div>
 
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-						<div className="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
-							<div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+						<div className="bg-white p-6 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+							<div className="bg-blue-100 w-12 h-12 rounded-lg flex items-center justify-center mb-3">
 								<BookOpen className="h-6 w-6 text-blue-600" />
 							</div>
-							<h3 className="text-xl font-bold text-gray-900 mb-3">
+							<h3 className="text-xl font-bold text-gray-900 mb-2">
 								Contenido Actualizado
 							</h3>
 							<p className="text-gray-600">
@@ -100,7 +100,7 @@ export default function Home() {
 			{/* CTA Section */}
 			<section className="section-padding bg-gradient-to-r from-blue-600 to-purple-600 text-white">
 				<div className="container-custom">
-					<div className="max-w-3xl mx-auto text-center space-y-6">
+					<div className="max-w-3xl mx-auto text-center space-y-4">
 						<h2 className="heading-2 text-white">
 							¿Listo para comenzar tu transformación?
 						</h2>

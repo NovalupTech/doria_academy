@@ -14,7 +14,7 @@ import {
 export const metadata: Metadata = {
 	title: "¿Quiénes Somos? - Doria Academy",
 	description:
-		"Conocé la historia, misión, visión y valores de Doria Academy. Educación accesible, innovación y profesionalismo.",
+		"Conoce la historia, misión, visión y valores de Doria Academy. Formación accesible, innovación y profesionalismo.",
 };
 
 export default function SobrePage() {
@@ -30,11 +30,10 @@ export default function SobrePage() {
 			<section className="section-padding bg-white">
 				<div className="container-custom">
 					<div className="max-w-4xl mx-auto">
-						<div className="text-center mb-12">
-							<h2 className="heading-2 mb-6">¿Quiénes Somos?</h2>
-							<div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
+						<div className="text-center mb-8">
+							<div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-5"></div>
 						</div>
-						<div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-6">
+						<div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-4">
 							<p className="text-lg">
 								<strong className="text-gray-900">Doria Academy</strong> es un espacio de formación y desarrollo dedicado a fortalecer el crecimiento personal, familiar, profesional y espiritual.
 							</p>
@@ -82,8 +81,8 @@ export default function SobrePage() {
 			{/* Valores */}
 			<section className="section-padding bg-white">
 				<div className="container-custom">
-					<div className="text-center mb-16">
-						<h2 className="heading-2 mb-4">Nuestros Valores</h2>
+					<div className="text-center mb-8">
+						<h2 className="heading-2 mb-3">Nuestros Valores</h2>
 							<p className="text-lg text-gray-600 max-w-2xl mx-auto">
 								Principios que guían nuestras acciones y decisiones
 						</p>
@@ -91,10 +90,10 @@ export default function SobrePage() {
 
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 						<div className="text-center p-6 rounded-xl hover:bg-blue-50 transition-colors duration-300">
-							<div className="bg-gradient-to-br from-blue-100 to-blue-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+							<div className="bg-gradient-to-br from-blue-100 to-blue-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-3">
 								<Heart className="h-8 w-8 text-blue-600" />
 							</div>
-							<h3 className="text-xl font-bold text-gray-900 mb-3">
+							<h3 className="text-xl font-bold text-gray-900 mb-2">
 								Formación Accesible
 							</h3>
 							<p className="text-gray-600">
@@ -104,10 +103,10 @@ export default function SobrePage() {
 						</div>
 
 						<div className="text-center p-6 rounded-xl hover:bg-purple-50 transition-colors duration-300">
-							<div className="bg-gradient-to-br from-purple-100 to-purple-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+							<div className="bg-gradient-to-br from-purple-100 to-purple-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-3">
 								<Zap className="h-8 w-8 text-purple-600" />
 							</div>
-							<h3 className="text-xl font-bold text-gray-900 mb-3">
+							<h3 className="text-xl font-bold text-gray-900 mb-2">
 								Innovación
 							</h3>
 							<p className="text-gray-600">
@@ -117,10 +116,10 @@ export default function SobrePage() {
 						</div>
 
 						<div className="text-center p-6 rounded-xl hover:bg-green-50 transition-colors duration-300">
-							<div className="bg-gradient-to-br from-green-100 to-green-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+							<div className="bg-gradient-to-br from-green-100 to-green-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-3">
 								<Award className="h-8 w-8 text-green-600" />
 							</div>
-							<h3 className="text-xl font-bold text-gray-900 mb-3">
+							<h3 className="text-xl font-bold text-gray-900 mb-2">
 								Profesionalismo
 							</h3>
 							<p className="text-gray-600">
@@ -129,10 +128,10 @@ export default function SobrePage() {
 						</div>
 
 						<div className="text-center p-6 rounded-xl hover:bg-orange-50 transition-colors duration-300">
-							<div className="bg-gradient-to-br from-orange-100 to-orange-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4">
+							<div className="bg-gradient-to-br from-orange-100 to-orange-200 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-3">
 								<TrendingUp className="h-8 w-8 text-orange-600" />
 							</div>
-							<h3 className="text-xl font-bold text-gray-900 mb-3">
+							<h3 className="text-xl font-bold text-gray-900 mb-2">
 								Aprendizaje Continuo
 							</h3>
 							<p className="text-gray-600">
@@ -148,18 +147,18 @@ export default function SobrePage() {
 				<div className="container-custom">
 					<div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
 						<div>
-							<Users className="h-12 w-12 mx-auto mb-4 opacity-90" />
-							<div className="text-4xl font-bold mb-2">500+</div>
+							<Users className="h-12 w-12 mx-auto mb-3 opacity-90" />
+							<div className="text-4xl font-bold mb-1">500+</div>
 							<div className="text-blue-100">Estudiantes Activos</div>
 						</div>
 						<div>
-							<BookOpen className="h-12 w-12 mx-auto mb-4 opacity-90" />
-							<div className="text-4xl font-bold mb-2">20+</div>
+							<BookOpen className="h-12 w-12 mx-auto mb-3 opacity-90" />
+							<div className="text-4xl font-bold mb-1">20+</div>
 							<div className="text-blue-100">Cursos Disponibles</div>
 						</div>
 						<div>
-							<Award className="h-12 w-12 mx-auto mb-4 opacity-90" />
-							<div className="text-4xl font-bold mb-2">95%</div>
+							<Award className="h-12 w-12 mx-auto mb-3 opacity-90" />
+							<div className="text-4xl font-bold mb-1">95%</div>
 							<div className="text-blue-100">Satisfacción</div>
 						</div>
 					</div>

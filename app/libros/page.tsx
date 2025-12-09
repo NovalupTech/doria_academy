@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Hero from "@/components/Hero";
 import Badge from "@/components/Badge";
 import BooksCatalog from "@/components/BooksCatalog";
+import BooksCarousel from "@/components/BooksCarousel";
 import { bookCollections, books } from "@/data/books";
 
 export const metadata: Metadata = {
@@ -19,10 +20,17 @@ export default function LibrosPage() {
 				showCta={false}
 			/>
 
+			{/* Books Carousel */}
+			<section className="pb-2.5 md:pb-3.5 bg-gradient-to-br from-gray-50 to-blue-50">
+				<div className="container-custom">
+					<BooksCarousel />
+				</div>
+			</section>
+
 			{/* Catálogo por categorías */}
 			<section className="section-padding bg-white">
-				<div className="container-custom space-y-12">
-					<div className="max-w-3xl mx-auto text-center space-y-4">
+				<div className="container-custom space-y-6">
+					<div className="max-w-3xl mx-auto text-center space-y-3">
 						<Badge variant="info" size="lg">📚 Próximamente</Badge>
 						<h2 className="heading-2">Un catálogo organizado por categorías</h2>
 						<p className="text-lg text-gray-600">
@@ -37,11 +45,11 @@ export default function LibrosPage() {
 			{/* Notification CTA */}
 			<section className="section-padding bg-white">
 				<div className="container-custom">
-					<div className="max-w-3xl mx-auto bg-gradient-to-br from-blue-600 to-purple-600 p-12 rounded-2xl text-center text-white">
-						<h2 className="heading-3 text-white mb-4">
+					<div className="max-w-3xl mx-auto bg-gradient-to-br from-blue-600 to-purple-600 p-8 rounded-2xl text-center text-white">
+						<h2 className="heading-3 text-white mb-3">
 							¿Quieres ser el primero en conocer nuestro catálogo?
 						</h2>
-						<p className="text-xl text-blue-100 mb-8">
+						<p className="text-xl text-blue-100 mb-6">
 							Contáctanos y te avisaremos cuando nuestra biblioteca esté
 							disponible. Además, accede a descuentos exclusivos de lanzamiento.
 						</p>
@@ -60,7 +68,7 @@ export default function LibrosPage() {
 			{/* Donaciones */}
 			<section className="section-padding bg-gradient-to-br from-gray-50 to-purple-50">
 				<div className="container-custom">
-					<div className="max-w-4xl mx-auto text-center space-y-6">
+					<div className="max-w-4xl mx-auto text-center space-y-4">
 						<Badge variant="info" size="lg">💙 Sección de donaciones (próximamente)</Badge>
 						<h2 className="heading-2">Apoya nuestra misión educativa</h2>
 						<p className="text-lg text-gray-700 leading-relaxed">
