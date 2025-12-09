@@ -12,7 +12,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-	title: "Sobre Nosotros - Doria Academy",
+	title: "¿Quiénes Somos? - Doria Academy",
 	description:
 		"Conocé la historia, misión, visión y valores de Doria Academy. Educación accesible, innovación y profesionalismo.",
 };
@@ -21,37 +21,25 @@ export default function SobrePage() {
 	return (
 		<>
 			<Hero
-				title="Sobre Doria Academy"
-				subtitle="Comprometidos con la excelencia educativa y el desarrollo profesional de nuestros estudiantes."
+				title="¿Quiénes Somos?"
+				subtitle="Aprende, crece y transforma tu presente y futuro."
 				showCta={false}
 			/>
 
-			{/* Historia */}
+			{/* Quiénes Somos */}
 			<section className="section-padding bg-white">
 				<div className="container-custom">
 					<div className="max-w-4xl mx-auto">
 						<div className="text-center mb-12">
-							<h2 className="heading-2 mb-6">Nuestra Historia</h2>
+							<h2 className="heading-2 mb-6">¿Quiénes Somos?</h2>
 							<div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8"></div>
 						</div>
-						<div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-4">
-							<p>
-								<strong className="text-gray-900">Doria Academy</strong> nace de
-								la convicción de que la educación de calidad debe ser accesible
-								para todos. Fundada con el propósito de democratizar el
-								conocimiento, nos hemos convertido en un referente en formación
-								profesional online.
+						<div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-6">
+							<p className="text-lg">
+								<strong className="text-gray-900">Doria Academy</strong> es un espacio educativo dedicado a fortalecer el crecimiento personal, familiar, profesional y espiritual.
 							</p>
-							<p>
-								Desde nuestros inicios, hemos trabajado incansablemente para
-								crear experiencias de aprendizaje que combinen rigor académico
-								con aplicabilidad práctica, preparando a nuestros estudiantes
-								para los desafíos del mundo profesional actual.
-							</p>
-							<p>
-								Hoy, continuamos expandiendo nuestra oferta educativa,
-								incorporando las últimas tecnologías y metodologías pedagógicas
-								para garantizar que cada estudiante alcance su máximo potencial.
+							<p className="text-lg">
+								Ofrecemos libros, capacitaciones, charlas y cursos presenciales y virtuales para transformar vidas mediante educación práctica y consciente.
 							</p>
 						</div>
 					</div>
@@ -71,10 +59,7 @@ export default function SobrePage() {
 								<h2 className="heading-3">Nuestra Misión</h2>
 							</div>
 							<p className="text-gray-600 leading-relaxed text-lg">
-								Proporcionar educación profesional de excelencia, accesible y
-								actualizada, que empodere a nuestros estudiantes con las
-								habilidades y conocimientos necesarios para destacarse en sus
-								carreras y contribuir positivamente a la sociedad.
+								Inspirar aprendizaje continuo y promover una vida más plena.
 							</p>
 						</div>
 
@@ -87,10 +72,7 @@ export default function SobrePage() {
 								<h2 className="heading-3">Nuestra Visión</h2>
 							</div>
 							<p className="text-gray-600 leading-relaxed text-lg">
-								Ser la academia online líder en formación profesional,
-								reconocida por la calidad de nuestros programas, la innovación
-								en nuestras metodologías y el éxito de nuestros egresados en el
-								mercado laboral.
+								Ser un referente educativo que aporte valor en cualquier país.
 							</p>
 						</div>
 					</div>

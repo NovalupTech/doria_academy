@@ -7,6 +7,7 @@ import {
 	Instagram,
 	Linkedin,
 } from "lucide-react";
+import Image from "next/image";
 
 export default function Footer() {
 	return (
@@ -16,21 +17,15 @@ export default function Footer() {
 					{/* Brand */}
 					<div className="space-y-4">
 						<div className="flex items-center gap-3">
-							<div className="w-10 h-10 bg-white rounded-lg p-1.5 flex-shrink-0">
-								<img
-									src="/logo.jpg"
-									alt="Doria Academy Logo"
-									className="w-full h-full object-contain"
-								/>
-							</div>
-							<span className="text-xl font-bold text-white">
-								Doria Academy
-							</span>
+							<Image src="/logo.jpg" alt="Doria Academy Logo" width={144} height={144} className="w-36 h-36" />
 						</div>
-						<p className="text-sm text-gray-400 leading-relaxed">
+						<p className="text-sm text-gray-400 leading-relaxed mb-3">
 							Transformando vidas a través de la educación profesional de
 							calidad. Cursos, capacitaciones y contenido académico para tu
 							futuro.
+						</p>
+						<p className="text-sm font-semibold text-blue-400 italic leading-relaxed">
+							"Aprende, crece y transforma tu presente y futuro."
 						</p>
 						<div className="flex gap-4">
 							<a
@@ -68,7 +63,7 @@ export default function Footer() {
 									href="/sobre"
 									className="text-sm hover:text-blue-400 transition-colors"
 								>
-									Sobre Nosotros
+									¿Quiénes Somos?
 								</Link>
 							</li>
 							<li>

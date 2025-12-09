@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const navigation = [
 	{ name: "Inicio", href: "/" },
-	{ name: "Nosotros", href: "/sobre" },
+	{ name: "¿Quiénes Somos?", href: "/sobre" },
 	{ name: "Cursos", href: "/cursos" },
 	{ name: "Campus Virtual", href: "/campus" },
 	{ name: "Libros", href: "/libros" },
@@ -22,16 +23,7 @@ export default function Header() {
 				<div className="flex items-center justify-between py-4">
 					{/* Logo */}
 					<Link href="/" className="flex items-center gap-3 group">
-						<div className="w-10 h-10 flex-shrink-0 group-hover:scale-105 transition-transform duration-300">
-							<img
-								src="/logo.jpg"
-								alt="Doria Academy Logo"
-								className="w-full h-full object-contain"
-							/>
-						</div>
-						<span className="text-xl font-bold text-gray-900">
-							Doria <span className="text-gradient">Academy</span>
-						</span>
+						<Image src="/logo.jpg" alt="Doria Academy Logo" width={144} height={144} className="w-36 h-36" />
 					</Link>
 
 					{/* Desktop Navigation */}
