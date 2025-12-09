@@ -21,7 +21,7 @@ export default function CourseCard({
 		<div className="card group hover:scale-105 transition-all duration-300 relative overflow-hidden">
 			{/* Status Badge */}
 			{status === "coming-soon" && (
-				<div className="absolute top-4 right-4 bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-xs font-semibold">
+				<div className="absolute top-4 right-4 bg-purple-100 text-purple-700 px-3 rounded-full text-xs font-semibold">
 					🚧 Próximamente
 				</div>
 			)}
