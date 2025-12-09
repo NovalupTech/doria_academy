@@ -68,7 +68,7 @@ export default function CursosPage() {
 							constantemente expandiendo nuestra oferta educativa.
 						</p>
 						<a
-							href="https://wa.me/XXXXXXXXXX"
+							href="https://wa.me/573145532943"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="btn-primary inline-block"

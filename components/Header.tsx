@@ -10,7 +10,7 @@ const navigation = [
 	{ name: "¿Quiénes Somos?", href: "/sobre" },
 	{ name: "Cursos", href: "/cursos" },
 	{ name: "Campus Virtual", href: "/campus" },
-	{ name: "Libros", href: "/libros" },
+	{ name: "¿Qué hay pa' leer?", href: "/libros" },
 	{ name: "Contacto", href: "/contacto" },
 ];
 
@@ -43,7 +43,7 @@ export default function Header() {
 					{/* CTA Button Desktop */}
 					<div className="hidden lg:flex">
 						<a
-							href="https://wa.me/XXXXXXXXXX"
+							href="https://wa.me/573145532943"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="btn-primary text-sm"
@@ -83,7 +83,7 @@ export default function Header() {
 							))}
 							<div className="px-4 pt-2">
 								<a
-									href="https://wa.me/XXXXXXXXXX"
+									href="https://wa.me/573145532943"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="btn-primary w-full text-center block text-sm"

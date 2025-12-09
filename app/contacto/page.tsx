@@ -15,7 +15,7 @@ export default function ContactoPage() {
 
 		// Crear mensaje para WhatsApp
 		const mensaje = `Hola! Mi nombre es ${formData.nombre}.%0A%0AEmail: ${formData.email}%0A%0AMensaje: ${formData.mensaje}`;
-		const whatsappUrl = `https://wa.me/XXXXXXXXXX?text=${mensaje}`;
+	const whatsappUrl = `https://wa.me/573145532943?text=${mensaje}`;
 
 		// Abrir WhatsApp
 		window.open(whatsappUrl, "_blank");
@@ -171,7 +171,7 @@ export default function ContactoPage() {
 											WhatsApp
 										</h3>
 										<a
-											href="https://wa.me/XXXXXXXXXX"
+											href="https://wa.me/573145532943"
 											target="_blank"
 											rel="noopener noreferrer"
 											className="text-green-600 hover:text-green-700 transition-colors"
@@ -224,7 +224,7 @@ export default function ContactoPage() {
 									</li>
 								</ul>
 								<a
-									href="https://wa.me/XXXXXXXXXX"
+									href="https://wa.me/573145532943"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="btn-secondary w-full mt-4 text-center block"

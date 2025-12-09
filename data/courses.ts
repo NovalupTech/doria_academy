@@ -18,81 +18,80 @@ export interface Course {
 export const courses: Course[] = [
 	{
 		id: 1,
-		title: "Desarrollo Web Full Stack",
+		title: "Liderazgo y Estrategia Empresarial",
 		description:
-			"Aprendé a crear aplicaciones web completas desde cero. Dominá HTML, CSS, JavaScript, React, Node.js y bases de datos.",
+			"Domina planificación estratégica, finanzas básicas, modelos de negocio y liderazgo de equipos para escalar tu empresa.",
 		duration: "12 semanas",
 		students: "0",
 		level: "Principiante a Avanzado",
 		status: "coming-soon",
-		category: "Desarrollo",
+		category: "Empresariales",
 	},
 	{
 		id: 2,
-		title: "Marketing Digital Profesional",
+		title: "Motivación y Mentalidad de Crecimiento",
 		description:
-			"Convertite en experto en marketing digital. SEO, SEM, redes sociales, email marketing y analítica web.",
+			"Potencia tu enfoque personal con herramientas de motivación, hábitos, resiliencia y objetivos alcanzables para avanzar cada día.",
 		duration: "10 semanas",
 		students: "0",
 		level: "Todos los niveles",
 		status: "coming-soon",
-		category: "Marketing",
+		category: "Motivacionales",
 	},
 	{
 		id: 3,
-		title: "Diseño UX/UI",
+		title: "Bienestar Espiritual y Mindfulness",
 		description:
-			"Diseñá experiencias digitales excepcionales. Investigación de usuarios, wireframing, prototipado y testing.",
+			"Explora prácticas de mindfulness, meditación y propósito de vida para cultivar paz interior y claridad espiritual.",
 		duration: "8 semanas",
 		students: "0",
 		level: "Intermedio",
 		status: "coming-soon",
-		category: "Diseño",
+		category: "Espirituales",
 	},
 	{
 		id: 4,
-		title: "Data Science y Analytics",
+		title: "Finanzas y Gestión para Emprender",
 		description:
-			"Dominá el análisis de datos con Python, SQL, visualización de datos y machine learning básico.",
+			"Aprende flujo de caja, precios, costos, métricas clave y gestión operativa para lanzar y sostener tu emprendimiento.",
 		duration: "14 semanas",
 		students: "0",
 		level: "Intermedio a Avanzado",
 		status: "coming-soon",
-		category: "Data",
+		category: "Empresariales",
 	},
 	{
 		id: 5,
-		title: "Gestión de Proyectos Ágiles",
+		title: "Comunicación y Dinámica Familiar",
 		description:
-			"Aprendé metodologías ágiles como Scrum y Kanban. Liderá equipos y proyectos de manera efectiva.",
+			"Mejora la comunicación en casa, resolución de conflictos, crianza respetuosa y organización familiar para vínculos saludables.",
 		duration: "6 semanas",
 		students: "0",
 		level: "Todos los niveles",
 		status: "coming-soon",
-		category: "Gestión",
+		category: "Familiares",
 	},
 	{
 		id: 6,
-		title: "Ciberseguridad Fundamental",
+		title: "Programas Híbridos: Presenciales y Virtuales",
 		description:
-			"Introducción a la seguridad informática. Protección de sistemas, redes y datos contra amenazas digitales.",
+			"Combina talleres presenciales con clases online en vivo. Modalidad flexible con acompañamiento y prácticas guiadas.",
 		duration: "10 semanas",
 		students: "0",
 		level: "Intermedio",
 		status: "coming-soon",
-		category: "Seguridad",
+		category: "Presenciales y virtuales",
 	},
 ];
 
 // Categories for filtering
 export const categories = [
 	"Todos",
-	"Desarrollo",
-	"Marketing",
-	"Diseño",
-	"Data",
-	"Gestión",
-	"Seguridad",
+	"Empresariales",
+	"Familiares",
+	"Motivacionales",
+	"Espirituales",
+	"Presenciales y virtuales",
 ];
 
 // Levels for filtering

@@ -55,7 +55,7 @@ export default function CourseCard({
 
 				{/* CTA */}
 				<a
-					href="https://wa.me/XXXXXXXXXX"
+					href="https://wa.me/573145532943"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="btn-secondary w-full text-center block mt-4"

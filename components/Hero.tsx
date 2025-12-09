@@ -12,7 +12,7 @@ export default function Hero({
 	title,
 	subtitle,
 	ctaText = "Contactar por WhatsApp",
-	ctaLink = "https://wa.me/XXXXXXXXXX",
+	ctaLink = "https://wa.me/573145532943",
 	showCta = true,
 }: HeroProps) {
 	return (

@@ -25,30 +25,32 @@ export default function Footer() {
 							futuro.
 						</p>
 						<p className="text-sm font-semibold text-blue-400 italic leading-relaxed">
-							"Aprende, crece y transforma tu presente y futuro."
+							&quot;Aprende, crece y transforma tu presente y futuro.&quot;
 						</p>
 						<div className="flex gap-4">
-							<a
+							{/* <a
 								href="#"
 								className="p-2 bg-gray-800 hover:bg-blue-600 rounded-lg transition-colors duration-300"
 								aria-label="Facebook"
 							>
 								<Facebook className="h-5 w-5" />
-							</a>
+							</a> */}
 							<a
-								href="#"
+								href="https://instagram.com/cristy_bd"
 								className="p-2 bg-gray-800 hover:bg-blue-600 rounded-lg transition-colors duration-300"
 								aria-label="Instagram"
+								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<Instagram className="h-5 w-5" />
 							</a>
-							<a
+							{/* <a
 								href="#"
 								className="p-2 bg-gray-800 hover:bg-blue-600 rounded-lg transition-colors duration-300"
 								aria-label="LinkedIn"
 							>
 								<Linkedin className="h-5 w-5" />
-							</a>
+							</a> */}
 						</div>
 					</div>
 
@@ -87,7 +89,7 @@ export default function Footer() {
 									href="/libros"
 									className="text-sm hover:text-blue-400 transition-colors"
 								>
-									Libros
+									¿Qué hay pa&apos; leer?
 								</Link>
 							</li>
 							<li>
@@ -119,15 +121,15 @@ export default function Footer() {
 						<ul className="space-y-3">
 							<li className="flex items-start gap-2 text-sm">
 								<Mail className="h-5 w-5 text-blue-400 flex-shrink-0 mt-0.5" />
-								<span>info@doriaacademy.com</span>
+								<span>doriaacademy2025@gmail.com</span>
 							</li>
 							<li className="flex items-start gap-2 text-sm">
 								<Phone className="h-5 w-5 text-blue-400 flex-shrink-0 mt-0.5" />
-								<span>+54 XXX XXX XXXX</span>
+								<span>+57 314 553 2943</span>
 							</li>
 							<li className="flex items-start gap-2 text-sm">
 								<MapPin className="h-5 w-5 text-blue-400 flex-shrink-0 mt-0.5" />
-								<span>Buenos Aires, Argentina</span>
+								<span>Colombia</span>
 							</li>
 						</ul>
 					</div>

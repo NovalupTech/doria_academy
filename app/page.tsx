@@ -109,7 +109,7 @@ export default function Home() {
 							objetivos profesionales.
 						</p>
 						<a
-							href="https://wa.me/XXXXXXXXXX"
+							href="https://wa.me/573145532943"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="inline-block bg-white text-blue-600 font-semibold py-4 px-8 rounded-lg hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
