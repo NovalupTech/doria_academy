@@ -20,10 +20,10 @@ export default function Header() {
 	return (
 		<header className="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
 			<nav className="container-custom" aria-label="Global">
-				<div className="flex items-center justify-between py-4">
+				<div className="flex items-center justify-between">
 					{/* Logo */}
 					<Link href="/" className="flex items-center gap-3 group">
-						<Image src="/logo.jpg" alt="Doria Academy Logo" width={144} height={144} className="w-36 h-36" />
+						<Image src="/logo.png" alt="Doria Academy Logo" width={120} height={120} className="w-24 h-24" />
 					</Link>
 
 					{/* Desktop Navigation */}
