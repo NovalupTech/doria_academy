@@ -45,7 +45,7 @@ export default function CourseCard({
 					</div>
 					<div className="flex items-center gap-1">
 						<Users className="h-4 w-4" />
-						<span>{students} estudiantes</span>
+						<span>{students} participantes</span>
 					</div>
 					<div className="flex items-center gap-1">
 						<Award className="h-4 w-4" />

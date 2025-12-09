@@ -26,7 +26,7 @@ export default function LibrosPage() {
 						<Badge variant="info" size="lg">📚 Próximamente</Badge>
 						<h2 className="heading-2">Un catálogo organizado por categorías</h2>
 						<p className="text-lg text-gray-600">
-							Explorá los títulos por colección. El botón de compra estará disponible pronto.
+							Explora los títulos por colección. El botón de compra estará disponible pronto.
 						</p>
 					</div>
 
@@ -39,11 +39,11 @@ export default function LibrosPage() {
 				<div className="container-custom">
 					<div className="max-w-3xl mx-auto bg-gradient-to-br from-blue-600 to-purple-600 p-12 rounded-2xl text-center text-white">
 						<h2 className="heading-3 text-white mb-4">
-							¿Querés ser el primero en conocer nuestro catálogo?
+							¿Quieres ser el primero en conocer nuestro catálogo?
 						</h2>
 						<p className="text-xl text-blue-100 mb-8">
-							Contactanos y te avisaremos cuando nuestra biblioteca esté
-							disponible. Además, accedé a descuentos exclusivos de lanzamiento.
+							Contáctanos y te avisaremos cuando nuestra biblioteca esté
+							disponible. Además, accede a descuentos exclusivos de lanzamiento.
 						</p>
 				<a
 					href="https://wa.me/573145532943"
@@ -62,7 +62,7 @@ export default function LibrosPage() {
 				<div className="container-custom">
 					<div className="max-w-4xl mx-auto text-center space-y-6">
 						<Badge variant="info" size="lg">💙 Sección de donaciones (próximamente)</Badge>
-						<h2 className="heading-2">Apoyá nuestra misión educativa</h2>
+						<h2 className="heading-2">Apoya nuestra misión educativa</h2>
 						<p className="text-lg text-gray-700 leading-relaxed">
 							Preparando un botón para recibir aportes desde cualquier país, compatible con PayPal, tarjeta o pago local según tu ubicación.
 						</p>

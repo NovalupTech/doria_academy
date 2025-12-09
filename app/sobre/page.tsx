@@ -36,10 +36,10 @@ export default function SobrePage() {
 						</div>
 						<div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-6">
 							<p className="text-lg">
-								<strong className="text-gray-900">Doria Academy</strong> es un espacio educativo dedicado a fortalecer el crecimiento personal, familiar, profesional y espiritual.
+								<strong className="text-gray-900">Doria Academy</strong> es un espacio de formación y desarrollo dedicado a fortalecer el crecimiento personal, familiar, profesional y espiritual.
 							</p>
 							<p className="text-lg">
-								Ofrecemos libros, capacitaciones, charlas y cursos presenciales y virtuales para transformar vidas mediante educación práctica y consciente.
+								Ofrecemos libros, capacitaciones, charlas y cursos presenciales y virtuales para transformar vidas mediante formación práctica y consciente.
 							</p>
 						</div>
 					</div>
@@ -84,9 +84,8 @@ export default function SobrePage() {
 				<div className="container-custom">
 					<div className="text-center mb-16">
 						<h2 className="heading-2 mb-4">Nuestros Valores</h2>
-						<p className="text-lg text-gray-600 max-w-2xl mx-auto">
-							Los principios que guían cada una de nuestras acciones y
-							decisiones
+							<p className="text-lg text-gray-600 max-w-2xl mx-auto">
+								Principios que guían nuestras acciones y decisiones
 						</p>
 					</div>
 
@@ -96,10 +95,10 @@ export default function SobrePage() {
 								<Heart className="h-8 w-8 text-blue-600" />
 							</div>
 							<h3 className="text-xl font-bold text-gray-900 mb-3">
-								Educación Accesible
+								Formación Accesible
 							</h3>
 							<p className="text-gray-600">
-								Creemos que todos merecen acceso a educación de calidad, sin
+								Creemos que todos merecen acceso a formación de calidad, sin
 								barreras.
 							</p>
 						</div>

@@ -14,8 +14,8 @@ export default function Home() {
 		<>
 			{/* Hero Section */}
 			<Hero
-				title="Transformá tu futuro con formación profesional"
-				subtitle="Cursos, capacitaciones y contenido académico de calidad en Doria Academy."
+				title="Transforma tu futuro con formación profesional"
+				subtitle="Cursos, capacitaciones y contenido formativo de calidad en Doria Academy."
 			/>
 
 			{/* Features Section */}
@@ -50,7 +50,7 @@ export default function Home() {
 						<h2 className="heading-2 mb-4">¿Por qué elegir Doria Academy?</h2>
 						<p className="text-lg text-gray-600">
 							Nos comprometemos con tu crecimiento profesional a través de una
-							educación de excelencia
+							formación de excelencia
 						</p>
 					</div>
 
@@ -63,7 +63,7 @@ export default function Home() {
 								Contenido Actualizado
 							</h3>
 							<p className="text-gray-600">
-								Material educativo constantemente actualizado con las últimas
+								Contenido actualizado constantemente con las últimas
 								tendencias y mejores prácticas del mercado.
 							</p>
 						</div>
@@ -105,7 +105,7 @@ export default function Home() {
 							¿Listo para comenzar tu transformación?
 						</h2>
 						<p className="text-xl text-blue-100">
-							Contactanos hoy y descubrí cómo podemos ayudarte a alcanzar tus
+							Contáctanos hoy y conoce cómo podemos ayudarte a alcanzar tus
 							objetivos profesionales.
 						</p>
 						<a

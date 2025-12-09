@@ -148,7 +148,7 @@ export default function CampusPage() {
 											Biblioteca de Recursos
 										</h3>
 										<p className="text-gray-600 leading-relaxed">
-											Accedé a una biblioteca completa con materiales
+											Accede a una biblioteca completa con materiales
 											complementarios, lecturas recomendadas y recursos
 											adicionales para profundizar tu conocimiento.
 										</p>
@@ -163,11 +163,11 @@ export default function CampusPage() {
 									</div>
 									<div>
 										<h3 className="text-xl font-bold text-gray-900 mb-2">
-											Comunidad de Estudiantes
+											Comunidad de Participantes
 										</h3>
 										<p className="text-gray-600 leading-relaxed">
-											Conectá con otros estudiantes, compartí experiencias, hacé
-											preguntas y colaborá en proyectos grupales.
+											Conecta con otros participantes, comparte experiencias, haz
+											preguntas y colabora en proyectos grupales.
 										</p>
 									</div>
 								</div>
@@ -183,7 +183,7 @@ export default function CampusPage() {
 											Aprende a tu Ritmo
 										</h3>
 										<p className="text-gray-600 leading-relaxed">
-											Sin horarios fijos. Estudiá cuando quieras, desde donde
+											Sin horarios fijos. Estudia cuando quieras, desde donde
 											quieras, con acceso ilimitado a todo el contenido del
 											curso.
 										</p>

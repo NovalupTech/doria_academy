@@ -14,8 +14,8 @@ export default function ContactoPage() {
 		e.preventDefault();
 
 		// Crear mensaje para WhatsApp
-		const mensaje = `Hola! Mi nombre es ${formData.nombre}.%0A%0AEmail: ${formData.email}%0A%0AMensaje: ${formData.mensaje}`;
-	const whatsappUrl = `https://wa.me/573145532943?text=${mensaje}`;
+		const mensaje = `Hola, mi nombre es ${formData.nombre}.%0A%0AEmail: ${formData.email}%0A%0AMensaje: ${formData.mensaje}`;
+		const whatsappUrl = `https://wa.me/573145532943?text=${mensaje}`;
 
 		// Abrir WhatsApp
 		window.open(whatsappUrl, "_blank");
@@ -39,10 +39,10 @@ export default function ContactoPage() {
 			<section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 py-20">
 				<div className="container-custom">
 					<div className="max-w-3xl mx-auto text-center">
-						<h1 className="heading-1 mb-6">Contactanos</h1>
+						<h1 className="heading-1 mb-6">Contáctanos</h1>
 						<p className="text-xl text-gray-600">
-							¿Tenés alguna consulta? Estamos acá para ayudarte. Envianos tu
-							mensaje y te responderemos a la brevedad.
+							¿Tienes alguna consulta? Estamos aquí para ayudarte. Envíanos tu
+							mensaje y te responderemos pronto.
 						</p>
 					</div>
 				</div>
@@ -55,9 +55,9 @@ export default function ContactoPage() {
 						{/* Contact Form */}
 						<div>
 							<div className="mb-8">
-								<h2 className="heading-3 mb-4">Envianos un Mensaje</h2>
+								<h2 className="heading-3 mb-4">Envíanos un mensaje</h2>
 								<p className="text-gray-600">
-									Completá el formulario y te contactaremos por WhatsApp
+									Completa el formulario y te contactaremos por WhatsApp
 								</p>
 							</div>
 
@@ -137,9 +137,9 @@ export default function ContactoPage() {
 						{/* Contact Info */}
 						<div>
 							<div className="mb-8">
-								<h2 className="heading-3 mb-4">Información de Contacto</h2>
+								<h2 className="heading-3 mb-4">Información de contacto</h2>
 								<p className="text-gray-600">
-									También podés contactarnos directamente por estos medios
+									También puedes contactarnos directamente por estos medios
 								</p>
 							</div>
 
@@ -151,10 +151,10 @@ export default function ContactoPage() {
 									<div>
 										<h3 className="font-semibold text-gray-900 mb-1">Email</h3>
 										<a
-											href="mailto:info@doriaacademy.com"
+											href="mailto:doriaacademy2025@gmail.com"
 											className="text-blue-600 hover:text-blue-700 transition-colors"
 										>
-											info@doriaacademy.com
+											doriaacademy2025@gmail.com
 										</a>
 										<p className="text-sm text-gray-600 mt-1">
 											Respondemos en 24-48 horas
@@ -176,7 +176,7 @@ export default function ContactoPage() {
 											rel="noopener noreferrer"
 											className="text-green-600 hover:text-green-700 transition-colors"
 										>
-											+54 XXX XXX XXXX
+											+57 314 553 2943
 										</a>
 										<p className="text-sm text-gray-600 mt-1">
 											Lun a Vie: 9:00 - 18:00 hs
@@ -192,7 +192,7 @@ export default function ContactoPage() {
 										<h3 className="font-semibold text-gray-900 mb-1">
 											Ubicación
 										</h3>
-										<p className="text-gray-700">Buenos Aires, Argentina</p>
+										<p className="text-gray-700">Colombia</p>
 										<p className="text-sm text-gray-600 mt-1">
 											Academia 100% online
 										</p>

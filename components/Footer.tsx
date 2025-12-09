@@ -20,9 +20,8 @@ export default function Footer() {
 							<Image src="/logo.jpg" alt="Doria Academy Logo" width={144} height={144} className="w-36 h-36" />
 						</div>
 						<p className="text-sm text-gray-400 leading-relaxed mb-3">
-							Transformando vidas a través de la educación profesional de
-							calidad. Cursos, capacitaciones y contenido académico para tu
-							futuro.
+							Transformando vidas a través de capacitaciones y contenido
+							formativo de calidad para tu futuro.
 						</p>
 						<p className="text-sm font-semibold text-blue-400 italic leading-relaxed">
 							&quot;Aprende, crece y transforma tu presente y futuro.&quot;

@@ -14,11 +14,11 @@ const inter = Inter({
 export const metadata: Metadata = {
 	title: "Doria Academy - Formación Profesional Online",
 	description:
-		"Cursos, capacitaciones y educación profesional de calidad. Transformá tu futuro con Doria Academy.",
+		"Cursos y capacitaciones de calidad. Transforma tu futuro con Doria Academy.",
 	keywords: [
 		"cursos online",
 		"capacitaciones",
-		"educación profesional",
+		"formación profesional",
 		"formación",
 		"certificaciones",
 		"campus virtual",
@@ -26,14 +26,14 @@ export const metadata: Metadata = {
 	authors: [{ name: "Doria Academy" }],
 	openGraph: {
 		title: "Doria Academy - Formación Profesional Online",
-		description: "Cursos, capacitaciones y educación profesional de calidad.",
+		description: "Cursos y capacitaciones de calidad.",
 		type: "website",
-		locale: "es_AR",
+		locale: "es_CO",
 	},
 	twitter: {
 		card: "summary_large_image",
 		title: "Doria Academy - Formación Profesional Online",
-		description: "Cursos, capacitaciones y educación profesional de calidad.",
+		description: "Cursos y capacitaciones de calidad.",
 	},
 	viewport: "width=device-width, initial-scale=1",
 	robots: "index, follow",
